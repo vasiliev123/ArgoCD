@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: pandaacademy/backend:latest
+        image: pandaacademy/backend:RC-2.b49f31f
         ports:
         - containerPort: 5001
       imagePullSecrets:
