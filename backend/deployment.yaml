@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: 192.168.44.44:8082/docker_registry/backend:1.0
+        image: pandaacademy/backend:latest
         ports:
         - containerPort: 5001
       imagePullSecrets:
