@@ -19,5 +19,3 @@ spec:
         image: pandaacademy/backend:RC-2.b49f31f
         ports:
         - containerPort: 5001
-      imagePullSecrets:
-      - name: regcred
