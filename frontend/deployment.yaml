@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: vasilievpl123/frontend:latest
+        image: vasilievpl123/frontend:RC-11
         ports:
         - containerPort: 5000
         env:
