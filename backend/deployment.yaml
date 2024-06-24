@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: vasilievpl123/backend:latest
+        image: vasilievpl123/backend:RC-17
         ports:
         - containerPort: 5001
